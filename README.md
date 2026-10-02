@@ -6,7 +6,7 @@ Sistema 100% front-end para conferência de placas no celular.
 - Importa o CSV com a coluna `GTIN`.
 - Agrupa automaticamente linhas repetidas pelo `PRO_COD`: 1 produto pode ter vários GTINs.
 - Busca por nome, código interno ou GTIN.
-- Scanner pela câmera em navegadores compatíveis com BarcodeDetector (requer HTTPS e permissão de câmera).
+- Scanner pela câmera compatível com iPhone/Safari e Android usando html5-qrcode (requer HTTPS e permissão de câmera).
 - Se um GTIN estiver associado a mais de um produto, mostra as opções em vez de escolher automaticamente.
 - IndexedDB: base e lista de placas ficam salvas no aparelho.
 - Comparação de preços entre importações.
